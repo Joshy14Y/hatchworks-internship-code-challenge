@@ -1,0 +1,161 @@
+/* Fire */
+.fire {
+  border-color: #f08030;
+}
+
+.fire:hover {
+  background-color: #f08030;
+}
+
+/* Water */
+.water {
+  border-color: #6890f0;
+}
+
+.water:hover {
+  background-color: #6890f0;
+}
+
+/* Grass */
+.grass {
+  border-color: #78c850;
+}
+
+.grass:hover {
+  background-color: #78c850;
+}
+
+/* Electric */
+.electric {
+  border-color: #f8d030;
+}
+
+.electric:hover {
+  background-color: #f8d030;
+}
+
+/* Psychic */
+.psychic {
+  border-color: #f85888;
+}
+
+.psychic:hover {
+  background-color: #f85888;
+}
+
+/* Bug */
+.bug {
+  border-color: #a8b820;
+}
+
+.bug:hover {
+  background-color: #a8b820;
+}
+
+/* Ghost */
+.ghost {
+  border-color: #705898;
+}
+
+.ghost:hover {
+  background-color: #705898;
+}
+
+/* Fairy */
+.fairy {
+  border-color: #ee99ac;
+}
+
+.fairy:hover {
+  background-color: #ee99ac;
+}
+
+/* Fighting */
+.fighting {
+  border-color: #c03028;
+}
+
+.fighting:hover {
+  background-color: #c03028;
+}
+
+/* Normal */
+.normal {
+  border-color: #a8a878;
+}
+
+.normal:hover {
+  background-color: #a8a878;
+}
+
+/* Rock */
+.rock {
+  border-color: #b8a038;
+}
+
+.rock:hover {
+  background-color: #b8a038;
+}
+
+/* Ground */
+.ground {
+  border-color: #e0c068;
+}
+
+.ground:hover {
+  background-color: #e0c068;
+}
+
+/* Dragon */
+.dragon {
+  border-color: #7038f8;
+}
+
+.dragon:hover {
+  background-color: #7038f8;
+}
+
+/* Ice */
+.ice {
+  border-color: #98d8d8;
+}
+
+.ice:hover {
+  background-color: #98d8d8;
+}
+
+/* Steel */
+.steel {
+  border-color: #b8b8d0;
+}
+
+.steel:hover {
+  background-color: #b8b8d0;
+}
+
+/* Dark */
+.dark {
+  border-color: #705848;
+}
+
+.dark:hover {
+  background-color: #705848;
+}
+
+/* Fairy */
+.fairy {
+  border-color: #ee99ac;
+}
+
+.fairy:hover {
+  background-color: #ee99ac;
+}
+
+/* Poison */
+.poison {
+  border-color: #a040a0;
+}
+
+.poison:hover {
+  background-color: #a040a0;
+}

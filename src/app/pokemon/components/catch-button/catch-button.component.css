@@ -1,0 +1,14 @@
+:host {
+  display: inline-flex;
+}
+
+button {
+  all: unset;
+  display: inline-flex;
+  cursor: pointer;
+}
+
+svg, img {
+  width: 30px;
+  height: 30px;
+}

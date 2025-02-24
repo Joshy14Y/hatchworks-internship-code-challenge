@@ -1,0 +1,9 @@
+<div class="parent-container">
+  <input
+    #searchBar
+    type="text"
+    placeholder="Gotta Search 'Em All 🔎"
+    (keyup.enter)="inputValue.set(searchBar.value)"
+    (keyup)="inputValue.set(searchBar.value)"
+  />
+</div>

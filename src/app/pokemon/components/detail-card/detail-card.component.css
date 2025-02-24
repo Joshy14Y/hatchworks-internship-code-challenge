@@ -1,0 +1,71 @@
+.parent {
+  display: flex;
+  font-family: 'Nunito';
+  align-items: center;
+  justify-content: center;
+}
+
+.head-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.types-container {
+  display: flex;
+  gap: 10px;
+}
+
+.types-container img {
+  object-fit: none;
+}
+
+
+h1 {
+  font-size: 45px;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 0px;
+}
+
+p {
+  font-size: 18px;
+  margin: 0px;
+}
+
+table {
+  border-collapse: collapse;
+  text-indent: initial;
+  border-spacing: 2px;
+  font-size: 18px;
+  text-align: center;
+}
+
+caption {
+  text-align: left;
+}
+
+th,td {
+  border-style: solid;
+  padding: 5px;
+}
+
+.pokemon-cry-button {
+  padding: 0px;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 50%;
+  border: none;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+

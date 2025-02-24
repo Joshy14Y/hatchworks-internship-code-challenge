@@ -1,0 +1,41 @@
+:host {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.parent {
+  position: relative;
+  display: flex;
+  border-width: 2px;
+  border-style: solid;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px;
+  border-radius: 18px;
+  font-family: "Pokemon";
+  justify-items: center;
+  text-align: center;
+  padding: 5px;
+  height: 100%;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 18px;
+  margin: 5px 0px;
+}
+
+.types-container {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+pokemon-catch-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
