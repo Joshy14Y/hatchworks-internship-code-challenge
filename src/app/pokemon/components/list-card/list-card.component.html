@@ -1,4 +1,4 @@
-<div class="parent" [ngClass]="types()[0].type.name" (click)="onClick()">
+<div class="parent-container" [ngClass]="types()[0].type.name" (click)="onClick()">
   <pokemon-catch-button [id]="number()" (click)="$event.stopPropagation()"/>
   <h1>{{ +number() | hashZeroFormat : 3 }}</h1>
   <div class="img-container">

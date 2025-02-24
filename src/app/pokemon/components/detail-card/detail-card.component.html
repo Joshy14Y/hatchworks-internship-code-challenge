@@ -1,6 +1,8 @@
-<div class="parent" *ngIf="pokemon()">
-  <img [src]="officialArtworkUrl" />
-  <div>
+<div class="parent-container" *ngIf="pokemon()">
+  <div class="img-container">
+    <img [src]="officialArtworkUrl" />
+  </div>
+  <div class="info-container">
     <div class="head-container">
       <pokemon-catch-button [id]="pokemon()!.id" />
       <h1>
@@ -14,40 +16,45 @@
         <source [src]="pokemon()?.cries?.latest" />
       </audio>
       <button class="pokemon-cry-button" (click)="playAudio()">🔊</button>
-      <p>{{ pokemonGenera() }}</p>
     </div>
 
+    <p>{{ pokemonGenera() }}</p>
+
     <div class="types-container">
-      <h2>Types:</h2>
-      <img
-        class="type"
-        *ngFor="let t of pokemonTypeIcons()"
-        [src]="t"
-        alt="Type Icon"
-        class="type-icon"
-      />
+      <div>
+        <h2>Type</h2>
+      </div>
+      <div>
+        <img
+          class="type"
+          *ngFor="let t of pokemonTypeIcons()"
+          [src]="t"
+          alt="Type Icon"
+          class="type-icon"
+        />
+      </div>
     </div>
 
     <div>
       <div>
-        <h2>Weight:</h2>
+        <h2>Weight</h2>
         <p>{{ pokemon()!.weight | convertUnit : 8 : "Kg" }}</p>
       </div>
       <div>
-        <h2>Height:</h2>
+        <h2>Height</h2>
         <p>{{ pokemon()!.height | convertUnit : 10 : "m" }}</p>
       </div>
     </div>
 
     <div>
-      <h2>Description:</h2>
+      <h2>Description</h2>
       <p>{{ pokemonDescription() | cleanText }}</p>
     </div>
 
     <div>
       <table>
         <caption>
-          <h2>Stats:</h2>
+          <h2>Stats</h2>
         </caption>
         <thead>
           <tr>

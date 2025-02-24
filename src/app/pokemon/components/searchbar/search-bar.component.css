@@ -1,6 +1,5 @@
 input {
   width: 100%;
-  max-width: 600px;
   border-radius: 18px;
   border: none;
   height: 30px;
@@ -8,8 +7,7 @@ input {
   background-color: gray;
   color: white;
   font-size: 18px;
-  padding: 5px 10px;
-  outline: none;
+  outline: unset;
   text-align: center;
 }
 
