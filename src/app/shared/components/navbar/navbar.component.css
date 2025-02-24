@@ -1,0 +1,22 @@
+.parent {
+  display: flex;
+  background-color: red;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Nunito';
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+img {
+  height: 35px;
+  width: 35px;
+}
