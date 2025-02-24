@@ -56,7 +56,6 @@ export class DetailCardComponent implements OnInit {
       this.pokemon.set(r);
       this.loadTypeIcons();
       this.loadSpecies();
-      console.log(this.pokemonDescription);
     });
   }
 
